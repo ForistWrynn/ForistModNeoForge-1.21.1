@@ -10,9 +10,19 @@ public class ModItems
 {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ForistMod.MOD_ID);
 
-    public static final DeferredItem<Item>  SCARLITE = ITEMS.registerSimpleItem("scarlite");
+    public static final DeferredItem<Item>  SCARLITE =
+            ITEMS.registerSimpleItem("scarlite");
     public static final DeferredItem<Item>  RAW_SCARLITE =
             ITEMS.registerItem("raw_scarlite", Item::new, new Item.Properties());
+
+    public static final DeferredItem<Item>  BLACK_OPAL =
+            ITEMS.registerSimpleItem("black_opal");
+
+    public static final DeferredItem<Item>  RAW_BLACK_OPAL =
+            ITEMS.registerSimpleItem("raw_black_opal");
+
+    public static final DeferredItem<Item>  TOMATO =
+            ITEMS.registerItem("tomato", Item::new, new Item.Properties().food(ModFoodProperties.TOMATO));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

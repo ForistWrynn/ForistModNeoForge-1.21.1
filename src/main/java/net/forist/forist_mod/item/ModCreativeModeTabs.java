@@ -1,6 +1,7 @@
 package net.forist.forist_mod.item;
 
 import net.forist.forist_mod.ForistMod;
+import net.forist.forist_mod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -23,17 +24,29 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                        pOutput.accept(ModItems.RAW_SCARLITE);
                        pOutput.accept(ModItems.SCARLITE);
+                       pOutput.accept(ModItems.RAW_BLACK_OPAL);
+                       pOutput.accept(ModItems.BLACK_OPAL);
+
+                       pOutput.accept(ModItems.TOMATO);
                     })
                     .build());
 
     public static final Supplier<CreativeModeTab> FORIST_MOD_BLOCKS_TAB =
             CREATIVE_MODE_TABS.register("forist_mod_blocks_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.forist_mod.forist_mod_blocks_tab"))
-                    .icon(()-> new ItemStack(ModItems.RAW_SCARLITE.get()))
+                    .icon(()-> new ItemStack(ModBlocks.BLACK_OPAL_BLOCK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ForistMod.MOD_ID,"forist_mod_item_tab"))
-
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(Blocks.BAMBOO_FENCE);
+
+                        pOutput.accept(ModBlocks.BLACK_OPAL_BLOCK);
+                        pOutput.accept(ModBlocks.RAW_BLACK_OPAL_BLOCK);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_ORE);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_NETHER_ORE);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_END_ORE);
+
+                        pOutput.accept(ModBlocks.MAGIC_BLOCK);
+
                     })
                     .build());
 

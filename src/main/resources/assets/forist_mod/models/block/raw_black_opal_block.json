@@ -1,0 +1,6 @@
+﻿{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "forist_mod:block/raw_black_opal_block"
+  }
+}
