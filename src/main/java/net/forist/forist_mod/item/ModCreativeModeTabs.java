@@ -28,6 +28,8 @@ public class ModCreativeModeTabs {
                        pOutput.accept(ModItems.BLACK_OPAL);
 
                        pOutput.accept(ModItems.TOMATO);
+
+                       pOutput.accept(ModItems.TOTEM_OF_LIFE);
                     })
                     .build());
 

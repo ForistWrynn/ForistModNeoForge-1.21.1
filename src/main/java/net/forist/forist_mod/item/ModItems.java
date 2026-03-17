@@ -1,6 +1,7 @@
 package net.forist.forist_mod.item;
 
 import net.forist.forist_mod.ForistMod;
+import net.forist.forist_mod.item.custom.TotemOfLife;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -23,6 +24,10 @@ public class ModItems
 
     public static final DeferredItem<Item>  TOMATO =
             ITEMS.registerItem("tomato", Item::new, new Item.Properties().food(ModFoodProperties.TOMATO));
+
+    //CUSTOM ITEM
+    public static final DeferredItem<Item> TOTEM_OF_LIFE = ITEMS.register("totem_of_life",
+            () -> new TotemOfLife(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
