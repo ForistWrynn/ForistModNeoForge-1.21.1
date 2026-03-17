@@ -1,6 +1,7 @@
 package net.forist.forist_mod.block.custom;
 
 import net.forist.forist_mod.item.ModItems;
+import net.forist.forist_mod.util.ModTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
@@ -44,7 +45,6 @@ public class MagicBlock extends Block {
 
     private boolean isValidItem(ItemStack item)
     {
-        return item.getItem() == ModItems.SCARLITE.get()
-                ||item.getItem() == Items.COAL||item.getItem() == Items.TOTEM_OF_UNDYING;
+        return item.is(ModTags.Items.TRANSFORMABLE_ITEMS);
     }
 }
