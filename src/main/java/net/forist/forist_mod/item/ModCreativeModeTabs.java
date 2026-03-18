@@ -49,6 +49,9 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.MAGIC_BLOCK);
 
+                        pOutput.accept(ModBlocks.SANDSTONE_BRICK);
+                        pOutput.accept(ModBlocks.SANDSTONE_BIG_BRICK);
+
                     })
                     .build());
 

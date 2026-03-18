@@ -18,6 +18,11 @@
 
   "block.forist_mod.magic_block": "Magic Block",
 
+  //SANDSTONE
+
+  "block.forist_mod.sandstone_brick": "Sandstone Bricks",
+  "block.forist_mod.sandstone_big_brick": "Sandstone Big Bricks",
+
 
 
   "itemGroup.forist_mod.forist_mod_item_tab": "Item Mod",

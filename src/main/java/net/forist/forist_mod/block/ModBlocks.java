@@ -36,6 +36,12 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(1, 7),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
 
+    //SANDSTONE
+    public static final DeferredBlock<Block> SANDSTONE_BRICK = registerBlock("sandstone_brick",
+            () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> SANDSTONE_BIG_BRICK = registerBlock("sandstone_big_brick",
+            () -> new Block(BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
+
     //CUSTOM BLOCK
 
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",

@@ -33,6 +33,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider
     protected void generate() {
         dropSelf(ModBlocks.BLACK_OPAL_BLOCK.get());
         dropSelf(ModBlocks.RAW_BLACK_OPAL_BLOCK.get());
+        dropSelf(ModBlocks.SANDSTONE_BRICK.get());
+        dropSelf(ModBlocks.SANDSTONE_BIG_BRICK.get());
 
 
         this.add(ModBlocks.BLACK_OPAL_ORE.get(),
