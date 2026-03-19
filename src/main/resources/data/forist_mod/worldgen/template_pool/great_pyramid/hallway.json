@@ -48,6 +48,28 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
+    },
+    {
+
+      // How likely out of all the element for this one to be chosen.
+      "weight": 1,
+      "element": {
+        "location": "forist_mod:small_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+
+      // How likely out of all the element for this one to be chosen.
+      "weight": 1,
+      "element": {
+        "location": "forist_mod:large_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
     }
   ]
 }
