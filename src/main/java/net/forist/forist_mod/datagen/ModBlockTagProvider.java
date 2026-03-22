@@ -26,6 +26,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.BLACK_OPAL_END_ORE.get())
                 .add(ModBlocks.BLACK_OPAL_NETHER_ORE.get())
                 .add(ModBlocks.MAGIC_BLOCK.get())
+                .add(ModBlocks.DARKNESS_BLOCK.get())
                 .add(ModBlocks.SANDSTONE_BRICK.get())
                 .add(ModBlocks.SANDSTONE_BIG_BRICK.get());
 

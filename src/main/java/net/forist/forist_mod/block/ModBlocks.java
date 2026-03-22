@@ -1,6 +1,7 @@
 package net.forist.forist_mod.block;
 
 import net.forist.forist_mod.ForistMod;
+import net.forist.forist_mod.block.custom.DarknessBlock;
 import net.forist.forist_mod.block.custom.MagicBlock;
 import net.forist.forist_mod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -46,6 +47,9 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
             () -> new MagicBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().noLootTable()));
+
+    public static final DeferredBlock<Block> DARKNESS_BLOCK = registerBlock("darkness_block",
+            () -> new DarknessBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().noLootTable()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

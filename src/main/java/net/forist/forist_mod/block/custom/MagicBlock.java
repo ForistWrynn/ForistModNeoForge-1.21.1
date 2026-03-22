@@ -34,10 +34,11 @@ public class MagicBlock extends Block {
     @Override
     public void stepOn(Level level, BlockPos pos, BlockState state, Entity entity)
     {
-        if (entity instanceof ItemEntity itemEntity){
+        if (entity instanceof ItemEntity itemEntity)
+        {
             if(isValidItem(itemEntity.getItem()))
             {
-                itemEntity.setItem(new ItemStack(Items.DIAMOND, itemEntity.getItem().getCount()));
+                itemEntity.setItem(new ItemStack(ModItems.TOTEM_OF_LIFE.get(), itemEntity.getItem().getCount()));
             }
         }
         super.stepOn(level, pos, state, entity);

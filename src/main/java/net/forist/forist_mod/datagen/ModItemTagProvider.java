@@ -23,9 +23,6 @@ public class ModItemTagProvider extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider)
     {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
-                .add(ModItems.BLACK_OPAL.get())
-                .add(Items.COAL)
-                .add(Items.DANDELION)
-                .add(Items.COMPASS);
+                .add(Items.DIAMOND);
     }
 }

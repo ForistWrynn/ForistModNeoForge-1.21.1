@@ -24,6 +24,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.BLACK_OPAL_NETHER_ORE);
 
         blockWithItem(ModBlocks.MAGIC_BLOCK);
+        blockWithItem(ModBlocks.DARKNESS_BLOCK);
 
         //SANDSTONE
         blockWithItem(ModBlocks.SANDSTONE_BRICK);
