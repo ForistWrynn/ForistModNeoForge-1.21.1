@@ -9,8 +9,6 @@
   // Do note that placed features needs a special element entry stuff.
   "elements": [
     {
-
-      // How likely out of all the element for this one to be chosen.
       "weight": 4,
       "element": {
         "location": "forist_mod:hallway_straight",
@@ -18,10 +16,9 @@
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
-    },{
-
-      // How likely out of all the element for this one to be chosen.
-      "weight": 1,
+    },
+    {
+      "weight": 4,
       "element": {
         "location": "forist_mod:hallway_corner",
         "processors": "minecraft:empty",
@@ -29,19 +26,34 @@
         "element_type": "minecraft:single_pool_element"
       }
     },{
-
-      // How likely out of all the element for this one to be chosen.
-      "weight": 1,
+      "weight": 4,
       "element": {
         "location": "forist_mod:hallway_cross",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
-    },{
-
-      // How likely out of all the element for this one to be chosen.
+    },
+    {
       "weight": 1,
+      "element": {
+        "location": "forist_mod:dead_end",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "forist_mod:hallway_trap1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
       "element": {
         "location": "forist_mod:hallway_t",
         "processors": "minecraft:empty",
@@ -50,9 +62,7 @@
       }
     },
     {
-
-      // How likely out of all the element for this one to be chosen.
-      "weight": 1,
+      "weight": 3,
       "element": {
         "location": "forist_mod:small_room",
         "processors": "minecraft:empty",
@@ -61,11 +71,33 @@
       }
     },
     {
-
-      // How likely out of all the element for this one to be chosen.
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "forist_mod:large_room",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 2,
+      "element": {
+        "location": "forist_mod:large_room_4lava",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 2,
+      "element": {
+        "location": "forist_mod:large_room_lava",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },{
+      "weight": 1,
+      "element": {
+        "location": "forist_mod:large_room_pitfall",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
