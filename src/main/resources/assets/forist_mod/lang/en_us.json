@@ -18,6 +18,11 @@
 
   "block.forist_mod.magic_block": "Magic Block",
 
+  //Entity
+  "entity.minecraft.villager.forist_mod.kaupenger": "Kaupenjer",
+  "entity.minecraft.villager.forist_mod.explorer": "Explorer",
+
+
   //SANDSTONE
 
   "block.forist_mod.sandstone_brick": "Sandstone Bricks",

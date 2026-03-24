@@ -3,6 +3,7 @@ package net.forist.forist_mod;
 import net.forist.forist_mod.block.ModBlocks;
 import net.forist.forist_mod.item.ModCreativeModeTabs;
 import net.forist.forist_mod.item.ModItems;
+import net.forist.forist_mod.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -38,6 +39,8 @@ public class ForistMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.

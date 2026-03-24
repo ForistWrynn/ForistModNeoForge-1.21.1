@@ -1,0 +1,13 @@
+﻿{
+  "replace": false,
+  "values": [
+    {
+      "id": "forist_mod:magic_poi",
+      "required": false
+    },
+    {
+      "id": "forist_mod:explore_poi",
+      "required": false
+    }
+  ]
+}
