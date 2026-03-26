@@ -30,6 +30,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('B', ModItems.BLACK_OPAL.get())
                 .unlockedBy("has_block_opal", has(ModItems.BLACK_OPAL.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.TABLET_ARTIFACT.get())
+                        .pattern("AAA")
+                        .pattern("AAA")
+                        .pattern("AAA")
+                .define('A',ModItems.TABLET_ARTIFACT_SHARD.get())
+                .unlockedBy("has_artifact_shard",has(ModItems.TABLET_ARTIFACT_SHARD.get())).save(pRecipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.BLACK_OPAL.get(), 9)
                 .requires(ModBlocks.BLACK_OPAL_BLOCK.get())
                 .unlockedBy("has_black_opal_block", has(ModBlocks.BLACK_OPAL_BLOCK.get())).save(pRecipeOutput);

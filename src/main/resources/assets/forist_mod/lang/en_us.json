@@ -17,6 +17,17 @@
   "block.forist_mod.black_opal_nether_ore": "Nether Black Opal Ore",
 
   "block.forist_mod.magic_block": "Magic Block",
+  "block.forist_mod.darkness_block": "Darkness Trap Sandstone Big Brick",
+
+  "item.forist_mod.tablet_artifact": "Tablet Artifact",
+  "tooltips.forist_mod.tablet_artifact.tooltips.shift": "Hold §g§lSHIFT§r for more information",
+  "tooltips.forist_mod.tablet_artifact.tooltips.1": "1",
+  "tooltips.forist_mod.tablet_artifact.tooltips.2": "2",
+
+  "item.forist_mod.tablet_artifact_shard": "Artifact Shard",
+  "tooltips.forist_mod.artifact_shard.1": "Combine with other 8 will form a exchange for Charms",
+
+  "block.forist_mod.pharoah_keystone": "Pharoah Keystone",
 
   //Entity
   "entity.minecraft.villager.forist_mod.kaupenger": "Kaupenjer",

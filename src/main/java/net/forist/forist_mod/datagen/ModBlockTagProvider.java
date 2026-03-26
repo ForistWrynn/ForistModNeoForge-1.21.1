@@ -28,6 +28,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MAGIC_BLOCK.get())
                 .add(ModBlocks.DARKNESS_BLOCK.get())
                 .add(ModBlocks.SANDSTONE_BRICK.get())
+                .add(ModBlocks.PHAROAH_KEYSTONE.get())
                 .add(ModBlocks.SANDSTONE_BIG_BRICK.get());
 
 

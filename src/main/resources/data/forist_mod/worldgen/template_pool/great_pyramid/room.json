@@ -9,7 +9,7 @@
   // Do note that placed features needs a special element entry stuff.
   "elements": [
     {
-      "weight": 1,
+      "weight": 3,
       "element": {
         "location": "forist_mod:accomodation",
         "processors": "minecraft:empty",
@@ -18,7 +18,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "forist_mod:dinning_hall",
         "processors": "minecraft:empty",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 2,
       "element": {
         "location": "forist_mod:potion_room",
         "processors": "minecraft:empty",
@@ -45,9 +45,45 @@
       }
     },
     {
-      "weight": 1,
+      "weight": 3,
       "element": {
         "location": "forist_mod:largeroom_bridge",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "forist_mod:fountain",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "forist_mod:large_room_pitfall",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "forist_mod:mini_parkour",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "forist_mod:passage_coffins",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

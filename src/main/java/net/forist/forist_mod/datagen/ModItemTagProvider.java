@@ -8,6 +8,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
 
@@ -24,5 +25,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
     {
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(Items.DIAMOND);
+
+        tag(ModTags.Items.EXPLORER_TRADE_POTTERY)
+                .add(Items.PLENTY_POTTERY_SHERD)
+                .add(Items.ANGLER_POTTERY_SHERD)
+                .add(Items.PRIZE_POTTERY_SHERD)
+                .add(Items.ARCHER_POTTERY_SHERD)
+                .add(Items.BLADE_POTTERY_SHERD);
     }
 }

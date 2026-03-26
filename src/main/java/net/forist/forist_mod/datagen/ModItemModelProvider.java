@@ -19,5 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.SCARLITE.get());
         basicItem(ModItems.RAW_SCARLITE.get());
         basicItem(ModItems.TOTEM_OF_LIFE.get());
+        basicItem(ModItems.TABLET_ARTIFACT.get());
+        basicItem(ModItems.TABLET_ARTIFACT_SHARD.get());
     }
 }

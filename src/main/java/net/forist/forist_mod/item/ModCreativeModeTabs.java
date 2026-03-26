@@ -30,6 +30,9 @@ public class ModCreativeModeTabs {
                        pOutput.accept(ModItems.TOMATO);
 
                        pOutput.accept(ModItems.TOTEM_OF_LIFE);
+
+                       pOutput.accept(ModItems.TABLET_ARTIFACT);
+                       pOutput.accept(ModItems.TABLET_ARTIFACT_SHARD);
                     })
                     .build());
 

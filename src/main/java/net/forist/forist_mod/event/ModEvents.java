@@ -63,7 +63,7 @@ public class ModEvents
 
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemCost(Items.EMERALD, 1),
-                    new ItemStack(ModItems.TOTEM_OF_LIFE.get(), 1), 1, 9, 0.05f
+                    new ItemStack(ModItems.TABLET_ARTIFACT_SHARD.get(), 1), 1, 9, 0.05f
             ));
 
             trades.get(1).add((pTrader, pRandom) -> new MerchantOffer(
@@ -72,8 +72,8 @@ public class ModEvents
             ));
 
             trades.get(2).add((pTrader, pRandom) -> new MerchantOffer(
-                    new ItemCost(Items.ENDER_PEARL, 12),
-                    new ItemStack(ModItems.RAW_BLACK_OPAL.get(), 1), 1, 9, 0.05f
+                    new ItemCost(Items.EMERALD, 12),
+                    new ItemStack(Items.PLENTY_POTTERY_SHERD, 1), 1, 9, 0.05f
             ));
         }
     }
